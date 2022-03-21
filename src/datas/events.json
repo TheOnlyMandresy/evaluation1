@@ -1,0 +1,201 @@
+{
+    "manifestation": [
+        {
+            "name": "Le boston tea party",
+            "start": "16/12/1773",
+            "end": "16/12/1773",
+            "infos": "Le Boston Tea Party est un événement préfigurateur de l’indépendance des États-Unis d’Amérique.",
+            "img": ""
+        },
+        {
+            "name": "La révolution française",
+            "start": "05/05/1789",
+            "end": "09/11/1799",
+            "infos": "La Révolution française prend fin le 9 novembre 1799 avec le coup d’État du 18 brumaire qui donne le pouvoir à Napoléon Bonaparte. Les conséquences de la Révolution française sont multiples : elle a d’abord permis l’abolition de la royauté et donc des privilèges. La Déclaration des Droits de l’Homme et du Citoyen est rédigée en conséquence. Le régime politique s’en est trouvé changé avec la mise en place d’une monarchie constitutionnelle puis de la première République. Au niveau européen, la Révolution française a également comme conséquence la création de républiques sœurs, la redéfinition des frontières et des États d’Europe ainsi que la diffusion d’un esprit révolutionnaire.",
+            "img": ""
+        },
+        {
+            "name": "La marche du sel",
+            "start": "12/03/1930",
+            "end": "06/04/1930",
+            "infos": "Cet acte de résistance non violent aboutit à l’abolition du monopole d’État sur le sel et fragilise l’autorité britannique sur les Indiens. De la même façon que le Boston Tea Party initiait l’indépendance des colonies, la marche du sel précède l’indépendance de l’Inde.",
+            "img": ""
+        },
+        {
+            "name": "La marche pour les droits civiques de Washington",
+            "start": "28/08/1963",
+            "end": "28/08/1963",
+            "infos": "Le 28 août 1963, le pasteur et militant Martin Luther King prononce son fameux discours « I have a dream » devant le Lincoln Memorial. Entre 200 000 et 300 000 personnes l'écoutent, dont 80% d’Afro-Américains. Cette marche pacifiste a comme conséquence le vote du Civil Rights Acts en 1964 ainsi que du Voting Rights Act l'année qui suit. La première mesure rend illégale toute forme de ségrégation tandis que la seconde autorise les personnes noires à voter. ",
+            "img": ""
+        },
+        {
+            "name": "Mai 68",
+            "start": "22/03/1968",
+            "end": "27/05/1968",
+            "infos": "À long terme, mai 68 remet aussi en question l’autorité des maris sur leurs femmes, l’autorité des patrons sur leurs ouvriers et l’autorité des valeurs traditionnelles comme le mariage, la religion ou encore la famille. Peu après cette période, l’enseignement devient d’ailleurs mixte, démocratique, autonome et ouvert à tous. On assiste alors à une réelle émancipation féminine qui progresse en parallèle avec l’évolution des tenues vestimentaires et de la liberté sexuelle.",
+            "img": ""
+        },
+        {
+            "name": "Manifestation du lundi",
+            "start": "09/10/1989",
+            "end": "09/11/1989",
+            "infos": "Ces manifestations pacifistes ont joué un rôle clé dans la chute du mur de Berlin. L’Armée rouge avait en effet pour ordre de réprimer violemment les rassemblements populaires. Cependant, face à un peuple pacifiste portant en guise d’arme une simple bougie et répétant en guise de slogan : « Keine Gewalt » (« pas de violence ») et « Wir sind das Volk » (« Nous sommes le peuple »), l’Armée rouge s’est retrouvée désemparée et n’a pas ouvert le feu. L’ouverture du rideau de fer a ainsi été rendue possible par les manifestations pacifistes répétées de ces centaines de milliers d’Allemands.",
+            "img": ""
+        },
+        {
+            "name": "La victoire de la révolution chantante",
+            "start": "01/01/1987",
+            "end": "01/08/1991",
+            "infos": "La voie balte est la victoire et l’action la plus symbolique de la Révolution chantante. Le 23 août 1989, entre 1,5 et 2 millions de personnes se tiennent la main pour former une frontière symbolique face à l’URSS. Cette chaîne humaine longue de 560 km commençait à Vilnius, traversait Riga et finissait à Tallinn. Les retombées médiatiques énormes ont donné une impulsion décisive au rétablissement de l’indépendance nationale des trois pays baltes.",
+            "img": ""
+        },
+        {
+            "name": "Les revelotions de couleurs ou de fleurs",
+            "start": "01/11/2003",
+            "end": "24/03/2005",
+            "infos": "Ces révolutions ont pour conséquence un redécoupage politique dans les pays concernés : l’Ukraine a ainsi pu organiser un nouveau tour aux élections présidentielles suite aux contestations contre le résultat du second tour, le Kirghizistan s’est émancipé de la tutelle soviétique en se révoltant contre le régime corrompu d’Askar Akaïev et le Liban de la tutelle syrienne. Seules la Biélorussie et la Moldavie n’ont pas réussi à mener à terme leurs révolutions respectives.",
+            "img": ""
+        },
+        {
+            "name": "Euromaidan",
+            "start": "21/11/2013",
+            "end": "22/02/2014",
+            "infos": "L’Euromaïdan a mis en fuite Ianoukovytch, remplacé par Tourtchynov, mais aussi permis la libération de l’opposante politique Ioulia Tymochenko et autorisé la fondation d’un nouveau gouvernement.",
+            "img": ""
+        },
+        {
+            "name": "Printemps arabe",
+            "start": "01/12/2010",
+            "end": null,
+            "infos": "Il est difficile de dresser le bilan de cet événement historique en raison de sa contemporanéité. Il en ressort toutefois quelques faits : des pays comme le Maroc, l’Algérie, l’Arabie Saoudite, l’Oman et le Koweït ont ainsi préféré la paix sociale plutôt qu’une sanglante répression comme ce fut le cas au Bahreïn, en Syrie et au Yémen. De son côté, le peuple libyen a mis fin au régime de Khadafi après une coûteuse guerre civile. Le peuple tunisien et le peuple égyptien ont également obtenu la déchéance des régimes de leur pays respectif à travers la contestation de rue. À l'échelle internationale, les conséquences sont nombreuses – immigration massive, État islamique, retombées médiatiques… mais il est encore difficile de définir les effets sur le long terme de ce mouvement de révolte générale.",
+            "img": ""
+        },
+        {
+            "name": "Stop Putin",
+            "start": "24/02/2022",
+            "end": null,
+            "infos": "Encore et toujours, partout dans le monde, des manifestations de soutien à l’Ukraine.",
+            "img": ""
+        },
+        {
+            "name": "Mouvement des gilets jaunes",
+            "start": "17/12/2018",
+            "end": null,
+            "infos": "Ce mouvement social spontané trouve son origine dans la diffusion — principalement sur les médias sociaux — d'appels à manifester contre l'augmentation du prix des carburants automobiles issue de la hausse de la taxe intérieure de consommation sur les produits énergétiques (TICPE). Les manifestations ont lieu essentiellement le samedi.",
+            "img": ""
+        },
+        {
+            "name": "Les manifestations contre le passe sanitaire",
+            "start": "17/07/2021",
+            "end": null,
+            "infos": "Ces nouvelles marchent surviennent alors que le pass sanitaire doit être étendu aux 12-17 ans à partir du 30 septembre. Un projet de loi pour proroger le pass sanitaire au-delà du 15 novembre sera par ailleurs présenté le 13 octobre en Conseil des ministres.",
+            "img": ""
+        }
+    ],
+    "events": [
+        {
+            "name": "Passage à l'heure d'été",
+            "date": "27/03/2022",
+            "infos": "Le dimanche 27 mars 2022, sur l'ensemble des pays de l'Union européenne à 2 heures du matin, nous perdrons une heure de sommeil. ",
+            "img": ""
+        },
+        {
+            "name": "Printemps des Poètes",
+            "date": "01/03/2022",
+            "infos": "Le Printemps des Poètes nous encourage à mettre de la poésie dans notre quotidien !",
+            "img": ""
+        },
+        {
+            "name": "Journée mondiale de la procrastination",
+            "date": "25/03/2022",
+            "infos": "Bien que la procrastination soit généralement considérée comme une mauvaise habitude, sa pratique pourrait bien comporter des avantages non négligeables ! Nous vous proposons de changer de regard sur la procrastination à l'occasion de la Journée mondiale de la procrastination, qui a lieu chaque année le 25 mars.",
+            "img": ""
+        },
+        {
+            "name": "Poisson d'avril",
+            "date": "01/04/2022",
+            "infos": "Le jour des canulars et des farces. Faux reportages dans la presse, blagues entre amis, sans oublier le fameux poisson de papier que les enfants facétieux s'amusent à coller dans le dos des adultes : les traditions du 1er avril ne manquent pas de charme !",
+            "img": ""
+        },
+        {
+            "name": "Début du Ramadan",
+            "date": "01/04/2022",
+            "infos": "La période du Ramadan est un mois sacré dans le calendrier musulman car il s'agit du mois durant lequel le Coran a été révélé au Prophète Mohamed.",
+            "img": ""
+        },
+        {
+            "name": "Pâques",
+            "date": "17/04/2022",
+            "infos": "La fête religieuse la plus importante du calendrier liturgique pour les Chrétiens car elle célèbre la résurrection du Christ. Pour tout le monde, c'est une belle occasion de se retrouver en famille et de se régaler de chocolat.",
+            "img": ""
+        },
+        {
+            "name": "Carnaval",
+            "date": "24/02/2022",
+            "infos": "Un type de fête relativement répandu en Europe et en Amérique. Il consiste généralement en une période pendant laquelle les habitants de la ville sortent déguisés (voire masqués ou bien maquillés) et se retrouvent pour chanter, danser, faire de la musique dans les rues, jeter des confettis et serpentins, défiler, éventuellement autour d’une parade.",
+            "img": ""
+        },
+        {
+            "name": "Marche des fiertés",
+            "date": "28/06/2022",
+            "infos": "C'est une manifestation qui prône la liberté et l'égalité pour toutes les orientations sexuelles et identités de genre (hétérosexuels, homosexuels, lesbiennes, bisexuels, trans).",
+            "img": ""
+        },
+        {
+            "name": "Halloween",
+            "date": "31/11/2022",
+            "infos": "La tradition moderne la plus connue veut que les enfants se déguisent avec des costumes effrayants à l'image des fantômes, des sorcières, des monstres ou des vampires et aillent sonner aux portes en demandant des friandises avec la formule : Trick or treat! qui signifie « des bonbons ou un sort ! ».",
+            "img": ""
+        },
+        {
+            "name": "Jour des morts",
+            "date": "02/12/2022",
+            "infos": "Le jour de la Commémoration de tous les fidèles défunts.",
+            "img": ""
+        },
+        {
+            "name": "Journée internationale des femmes",
+            "date": "08/03/2022",
+            "infos": "Une journée internationale mettant en avant la lutte pour les droits des femmes et notamment pour la fin des inégalités par rapport aux hommes.",
+            "img": ""
+        }
+    ],
+    "meetings": [
+        {
+            "name": "Lundi des roses",
+            "date": "28/02/2022",
+            "infos": "Le point culminant du Karneval allemand et a lieu le Shrove lundi avant le mercredi des Cendres, le début du Carême.",
+            "img": ""
+        },
+        {
+            "name": "Noël",
+            "date": "25/12/2022",
+            "infos": "La célébration qui rappelle la naissance de Jésus Christ de Nazareth.",
+            "img": ""
+        },
+        {
+            "name": "Mercredi des cendres",
+            "date": "02/03/2022",
+            "infos": "Un jour de pénitence qui marque le début du carême dans le christianisme.",
+            "img": ""
+        },
+        {
+            "name": "Carême",
+            "date": "02/03/2022",
+            "infos": "Un temps liturgique de prière plus intense de l'âme et du corps destinée à la conversion du cœur et à se préparer pour la semaine Sainte.",
+            "img": ""
+        },
+        {
+            "name": "Chandeleur",
+            "date": "02/02/2022",
+            "infos": "Devenue ensuite une fête religieuse chrétienne correspondant à la présentation de Jésus au Temple et à sa reconnaissance par Syméon comme « Lumière qui se révèle aux nations ».",
+            "img": ""
+        },
+        {
+            "name": "Saint Valentin",
+            "date": "14/02/2022",
+            "infos": "Les couples en profitent pour échanger des mots doux et des cadeaux comme preuves d’amour ainsi que des roses rouges qui sont l’emblème de la passion.",
+            "img": ""
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "team": [
+        {
+            "role": "Chercheuse en drama queen",
+            "firstName": "Patricia A.",
+            "lastName": "Boyd",
+            "age": 39,
+            "contact": {
+                "email": "PatriciaABoyd@dramaforever.com",
+                "countryCode": 33,
+                "number": "01.20.25.12.07"
+            }
+        },
+        {
+            "role": "Chercheur en drama queen",
+            "firstName": "Sabih Fadi",
+            "lastName": "Handal",
+            "age": 45,
+            "contact": {
+                "email": "SabihFadiHandal@dramaforever.com",
+                "countryCode": 33,
+                "number": "04.65.10.27.26"
+            }
+        },
+        {
+            "role": "Chercheur en drama queen",
+            "firstName": "Palmiro",
+            "lastName": "Giordano",
+            "age": 61,
+            "contact": {
+                "email": "PalmiroGiordano@dramaforever.com",
+                "countryCode": 39,
+                "number": "0350 2408268"
+            }
+        },
+        {
+            "role": "Chercheuse en drama queen",
+            "firstName": "Flordelis",
+            "lastName": "Trottier",
+            "age": 56,
+            "contact": {
+                "email": "FlordelisTrottier@dramaforever.com",
+                "countryCode": 33,
+                "number": "02.93.30.10.37"
+            }
+        },
+        {
+            "role": "Superviseur du projet",
+            "firstName": "Josh",
+            "lastName": "Morley",
+            "age": 23,
+            "contact": {
+                "email": "JoshMorley@dramaforever.com",
+                "countryCode": 44,
+                "number": "077 7285 5677"
+            }
+        },
+        {
+            "role": "Superviseur du projet",
+            "firstName": "Katsumi",
+            "lastName": "Komaï",
+            "age": 58,
+            "contact": {
+                "email": "Shavan@dramaforever.com",
+                "countryCode": 33,
+                "number": "05.65.00.49.82"
+            }
+        },
+        {
+            "role": "Chargé événementiel",
+            "firstName": "Jon",
+            "lastName": "Boots",
+            "age": 20,
+            "contact": {
+                "email": "JonBoots@dramaforever.com",
+                "countryCode": 358,
+                "number": "041 231 4725"
+            }
+        },
+        {
+            "role": "Chargé événementiel",
+            "firstName": "Ian",
+            "lastName": "Abramowitz",
+            "age": 55,
+            "contact": {
+                "email": "IanAbramowitz@dramaforever.com",
+                "countryCode": 33,
+                "number": "04.09.39.91.77"
+            }
+        },
+        {
+            "role": "Chargée événementiel",
+            "firstName": "Chum",
+            "lastName": "Khamsuk",
+            "age": 65,
+            "contact": {
+                "email": "ChumKhamsuk@dramaforever.com",
+                "countryCode": 33,
+                "number": "01.82.13.40.58"
+            }
+        },
+        {
+            "role": "Chargé événementiel",
+            "firstName": "Vladimiro",
+            "lastName": "Zito",
+            "age": 52,
+            "contact": {
+                "email": "VladimiroZito@dramaforever.com",
+                "countryCode": 34,
+                "number": "608 877 088"
+            }
+        },
+        {
+            "role": "Chargée événementiel",
+            "firstName": "Eliane Rosario",
+            "lastName": "Lozada",
+            "age": 59,
+            "contact": {
+                "email": "ElianeRosarioLozada@dramaforever.com",
+                "countryCode": 34,
+                "number": "710 027 790"
+            }
+        }
+    ],
+    "queens": [
+        {
+            "firstName": "Michael M.",
+            "lastName": "Roth",
+            "age": 82,
+            "quote": "La vie est trop dure, c'est ce que vous pensez ? N'est-ce pas ? Mais essayer de vous dire que la vie est facile et elle le sera !"
+        },
+        {
+            "firstName": "Jessica R.",
+            "lastName": "Condon",
+            "age": 85,
+            "quote": "Dans la vie, tu es le seul à créer le moment magique. Tu ne dois pas attendre qu'il arrive. Deviens le magicien de ton existence."
+        },
+        {
+            "firstName": "Gabrielle Ferreira",
+            "lastName": "Goncalves",
+            "age": 66,
+            "quote": "Quelque soit le chemin,la vie empreinte ses pas"
+        },
+        {
+            "firstName": "Laurence",
+            "lastName": "Durepos",
+            "age": 79,
+            "quote": "Même si dans la vie on ne fait pas toujours ce que l’on veut, on est quand même responsable de ce que l’on devient."
+        },
+        {
+            "firstName": "Guillaume",
+            "lastName": "Paquette",
+            "age": 33,
+            "quote": "Profite de la vie et du moment présent car si chaque jour que tu vois  est un jour de plus, c'est aussi un jour de moins"
+        },
+        {
+            "firstName": "Arnaude",
+            "lastName": "Caouette",
+            "age": 57,
+            "quote": "La vie est un jeu, il est bien plus facile d'y jouer quant on en connait les règles."
+        },
+        {
+            "firstName": "Danielle",
+            "lastName": "Phillips",
+            "age": 38,
+            "quote": "Nous sommes artistes de nos vies sur la plus belle des scènes la Planète..."
+        },
+        {
+            "firstName": "Gianluca Serrano",
+            "lastName": "Rico",
+            "age": 21,
+            "quote": "La vie est faite de beaux moments comme de terribles, mais la vie c'est comme un piano, il faut jouer sur les touches blanches comme sur les touches noires pour former une belle harmonie."
+        },
+        {
+            "firstName": "Bacco",
+            "lastName": "Longo",
+            "age": 23,
+            "quote": "Une vie sans contrariété est une vie sans plaisir"
+        },
+        {
+            "firstName": "Nikita",
+            "lastName": "Sokolov",
+            "age": 25,
+            "quote": "Dans la vraie vie, les plus faibles ne gagnent jamais."
+        }
+    ]
+}
