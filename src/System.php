@@ -1,11 +1,12 @@
 <?php class System
 {
     private $page;
-    private $title = "DramaForever";
 
     public function __construct ()
     {
         if ($_SERVER['REQUEST_URI'] !== "/") $this->page = $_SERVER['REQUEST_URI'];
+
+        if (is_null($this->page)) $this->page = "/index";
 
         if (!is_null($this->page)) {
             $this->page = explode('/', $this->page);
@@ -13,14 +14,27 @@
             $load = "load" .ucfirst($this->page[0]);
         }
 
-        if (is_null($this->page)) $load = "loadIndex";
-
         return $this->$load();
     }
 
     private function render ($pageToRender, $variables = [])
     {
+        $datasWebsite = static::getDatas('website');
+
+        $website = [];
+        $website['title'] = $datasWebsite['website']['foundation'];
+        $website['version'] = $datasWebsite['system']['version'];
+        $website['author'] = $datasWebsite['system']['author'];
+        $website['authorLink'] = $datasWebsite['system']['contact'];
+
+        $contact = [];
+        $contact['phone'] = $datasWebsite['website']['phone'];
+        $contact['email'] = $datasWebsite['website']['email'];
+        $contact['insta'] = $datasWebsite['socials']['instagram'];
+ 
         ob_start();
+            $website;
+            $contact;
             extract($variables);
         $datas = ob_end_clean();
 
@@ -28,31 +42,45 @@
         require_once 'pages/template.php';
     }
 
-    private function setTitle ($text)
-    {
-        $newText = $this->title. ': ' .ucfirst($text);
-        
-        return $newText;
-    }
-
     private function loadIndex ()
     {
-        $title = $this->setTitle("accueil");
+        $title = static::setTitle("accueil");
 
         return $this->render('index', compact('title'));
     }
 
     private function loadEvents ()
     {
-        $title = $this->setTitle("nos actions");
+        $title = static::setTitle("nos actions");
 
         return $this->render('events', compact('title'));
     }
 
     private function loadTeam ()
     {
-        $title = $this->setTitle("contributeurs");
+        $title = static::setTitle("contributeurs");
 
         return $this->render('team', compact('title'));
+    }
+
+    //
+    //
+    // Statics
+
+    private static function setTitle ($text)
+    {
+        $name = static::getDatas('website')['website']['foundation'];
+        $newText = $name. ': ' .ucfirst($text);
+        
+        return $newText;
+    }
+
+    private static function getDatas ($link)
+    {
+        $url = getcwd(). '/src/datas/' .$link. '.json';
+        $json = file_get_contents($url);
+        $json = stripslashes($json);
+        
+        return json_decode($json, true);
     }
 }

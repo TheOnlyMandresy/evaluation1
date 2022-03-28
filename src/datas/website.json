@@ -1,20 +1,15 @@
 {
-    "website": [
-        {
+    "website": {
         "foundation": "DramaForever",
         "phone": "+33 5 32 74 00 40",
         "email": "noreply@dramaforever.com"
-        }
-    ],
-    "socials": [
-        {
-        "instagram": "@dramaforqueens"
-        }
-    ],
-    "system": [
-        {
-        "Version": "v1",
-        "Author": "Mandresy"
-        }
-    ]
+    },
+    "socials": {
+        "instagram": "https://www.instagram.com/dramaforqueens/"
+    },
+    "system": {
+        "version": "v1",
+        "author": "Mandresy",
+        "contact": "https://www.instagram.com/monsieur.rvy/"
+    }
 }
