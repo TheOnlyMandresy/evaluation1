@@ -1,0 +1,23 @@
+html,
+body,
+main { height: 100%; }
+
+[class*="logo"] {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.logo {
+    height: 60px; width: 100px;
+}
+
+.logo-XL {
+    height: 25vh; /* 40vh */
+}
+
+.landing {
+    background-image: url(../img/space.jpg);
+    background-position: center;
+    background-size: contain;
+}
