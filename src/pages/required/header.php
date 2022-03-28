@@ -1,4 +1,4 @@
-<header>
+<header class="fixed-top">
     <?php require_once 'navbar.php'; ?>
     
     <div class="navbar navbar-dark bg-dark shadow-sm">

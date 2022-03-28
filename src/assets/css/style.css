@@ -1,6 +1,8 @@
 html,
-body,
-main { height: 100%; }
+body { height: 100%; }
+main { min-height: 100%; }
+
+.h-100 { height: 100vh!important; }
 
 [class*="logo"] {
     background-image: url(../img/logo.png);
@@ -13,11 +15,28 @@ main { height: 100%; }
 }
 
 .logo-XL {
-    height: 25vh; /* 40vh */
+    width: 100%; height: 25vh; /* 40vh */
+    filter: drop-shadow(0 0 0.75rem cyan) drop-shadow(0 0 0.5rem cyan);
 }
 
-.landing {
+/* Index */
+
+.index-landing {
     background-image: url(../img/space.jpg);
     background-position: center;
     background-size: contain;
 }
+
+.index-events {
+    grid-template-columns: repeat(3, 1fr) 7vw;
+    grid-template-areas:
+        "a a a d"
+        "b b b d"
+        "c c c d";
+}
+.index-events > .card:nth-child(1) { grid-area: a; }
+.index-events > .card:nth-child(2) { grid-area: b; }
+.index-events > .card:nth-child(3) { grid-area: c; }
+.index-events > .more { grid-area: d; }
+
+/* .index-events > .more > svg { color: red; } */

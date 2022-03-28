@@ -44,9 +44,32 @@
 
     private function loadIndex ()
     {
-        $title = static::setTitle("accueil");
+        $title = static::setTitle('accueil');
 
-        return $this->render('index', compact('title'));
+        $loadEvents = static::getDatas('events');
+
+        // Seperated datas
+        $manif = $loadEvents['manifestation'];
+        $ev = $loadEvents['events'];
+        $meet = $loadEvents['meetings'];
+
+        $all = [];
+        // all events reunited
+        foreach ($manif as $value) {
+            $all[] = $value;
+        }
+        foreach ($ev as $value) {
+            $all[] = $value;
+        }
+        foreach ($meet as $value) {
+            $all[] = $value;
+        }
+
+        usort($all, array('System', 'orderByDate'));
+        // Most recent on top
+        $all = array_reverse($all);
+
+        return $this->render('index', compact('title', 'all'));
     }
 
     private function loadEvents ()
@@ -61,6 +84,16 @@
         $title = static::setTitle("contributeurs");
 
         return $this->render('team', compact('title'));
+    }
+
+    private function orderByDate ($a, $b)
+    {
+        $date1 = strtotime($a['date']);
+        $date2 = strtotime($b['date']);
+
+        if ($date1 < 0) return 0;
+
+        return $date1 - $date2;
     }
 
     //
@@ -83,4 +116,5 @@
         
         return json_decode($json, true);
     }
+    
 }

@@ -13,7 +13,7 @@
             </div>
             
             <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-white">Contact</h4>
+                <h4 class="text-white">Contacts</h4>
 
                 <?php require_once 'contact.php'; ?>
             </div>
