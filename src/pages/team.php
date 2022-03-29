@@ -22,7 +22,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><?= $data['firstName']; ?> <?= $data['lastName']; ?></h5>
                         <p class="card-text text-muted"><?= $data['role']; ?></p>
-                        <p class="card-text fs-6">Contacts <br> <?= $data['contact']['email']; ?> <br> (<?= $data['contact']['countryCode']; ?>) <?= $data['contact']['number']; ?></p>
+                        <p class="card-text fs-6"><span class="fw-bold">Contacts</span> <br> <?= $data['contact']['email']; ?> <br> (<?= $data['contact']['countryCode']; ?>) <?= $data['contact']['number']; ?></p>
                     </div>
                 </div>
             <?php endforeach; ?>

@@ -1,7 +1,7 @@
 <div class="events-incomming d-grid gap-3 p-3 border-bottom bg-dark accordion" id="latestsEvents">
     <?php for ($i = 0; $i < 3; $i++): ?>
     <div class="card text-white bg-dark shadow">
-        <div class="card-header">Événement du <?= $incomming[$i]['date']; ?></div>
+        <div class="card-header">Prochainement : <?= $incomming[$i]['date']; ?></div>
 
         <div class="accordion-item bg-dark overflow-hidden">
             <h5 id="HeadShowEvent<?= $i; ?>" class="card-title accordion-header">

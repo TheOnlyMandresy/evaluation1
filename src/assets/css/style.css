@@ -32,6 +32,11 @@ main { min-height: 100%; }
     left: 0;
 }
 
+.toSlide { width: fit-content; }
+.toSlide > .card {
+    width: 16rem;
+    background-color: rgba(0,0,0,.03)!important;
+}
 
 /* Index */
 .index-landing {
@@ -58,10 +63,6 @@ main { min-height: 100%; }
 
 .team-all .cards { overflow-y: auto; }
 .team-all .cards .toSlide { width: fit-content; }
-.team-all .cards .toSlide > .card {
-    width: 16rem; max-width: 16rem;
-    background-color: rgba(0,0,0,.03)!important;
-}
 .team-all .cards .card .img { height: 200px; max-height: 200px; }
 
 
@@ -93,11 +94,6 @@ main { min-height: 100%; }
 .events-incomming > .more { grid-area: d; }
 
 .events-all .cards { overflow-y: auto; }
-.events-all .cards .toSlide { width: fit-content; }
-.events-all .cards .toSlide > .card {
-    width: 16rem; max-width: 16rem;
-    background-color: rgba(0,0,0,.03)!important;
-}
 .events-all .cards .card .img { height: 200px; max-height: 200px; }
 .events-all .cards .card .card-body > .card-text:nth-child(3) {
     max-height: 9rem;
@@ -115,6 +111,7 @@ footer > * {
 }
 
 .toSlide { flex-wrap: wrap; }
+.toSlide > .card { width: 18rem!important; }
 
 .about-what .toResponsive { 
     display: grid;
