@@ -8,7 +8,7 @@
     <h4 class="text-uppercase text-center py-3 mb-3">C'est pour la bonne cause</h4>
     <p class="mb-4 text-justify">En faisant un don, vous nous aiderez à nourrir les cerveaux sans gènes, ceux qui n'ont pas froid au yeux et qui oseront faire grimper en flèche la bourse dramatique.</p>
 
-    <img src="https://www.mon-autoentreprise.fr/wp-content/uploads/2020/08/Mode%CC%80le-de-business-plan-auto-entrepreneur.png" class="card-img mb-4" alt="All the same">
+    <img src="/src/assets/img/business.png" class="card-img mb-4" alt="Business is business">
 
     <p class="mb-4 text-justify">Vous nous aiderez aussi à financer d'autres projets. Des projets qui ne sont pas de nous mais de personnes tout aussi motivées à l'idée d'apporter une aide au développement de ce monde dans lequel nous vivons tous.</p>
     

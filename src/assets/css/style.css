@@ -20,6 +20,10 @@ main { min-height: 100%; }
     filter: drop-shadow(0 0 0.75rem cyan) drop-shadow(0 0 0.5rem cyan);
 }
 
+[class*="-presentation"] {
+    background-position: center;
+    background-size: cover;
+}
 [class*="-presentation"] > .filter {
     height: 100%;
     width: 100%;
@@ -52,10 +56,15 @@ main { min-height: 100%; }
 /* About */
 .about-presentation {
     background-image: url(../img/time.png);
-    background-position: center;
-    background-size: cover;
     filter: hue-rotate(4deg);
 }
-.about-presentation > .filter { background-color: #00ffff6b; }
+.about-presentation > .filter { background-color: #00e0ff54; }
 
 /* Team */
+
+/* Donation */
+.donation-presentation {
+    background-image: url(../img/giveaway.jpg);
+    filter: hue-rotate(292deg);
+}
+.donation-presentation > .filter { background-color: #8100ff54; }
