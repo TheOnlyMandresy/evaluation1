@@ -6,6 +6,6 @@
 </p>
 
 <a href="<?= $website['authorLink']; ?>" target="_blank" class="text-black">
-    <p class="text-end">- <?= $website['author']; ?></p>
+    <p class="text-end mb-0">- <?= $website['author']; ?></p>
 </a>
 </footer>

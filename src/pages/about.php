@@ -31,9 +31,7 @@
     <h4 class="text-uppercase text-center pb-3 mb-3">Le drama c'est pour qui ?</h4>
     <p class="mb-4 text-justify">Le drama est pour tous ceux qui aiment ouvrir la bouche pour en sortir une succession d'onomatopées qui permettent à notre cerveau d'en déduire la nature de nos pensées grâce à une syntaxe apprise dès l'enfance : l'alphabet.</p>
     
-    <div class="card bg-dark text-white mb-4">
-        <img src="https://image.shutterstock.com/image-illustration/cartoon-kids-around-world-globe-260nw-591970034.jpg" class="card-img" alt="All the same">
-    </div>
+    <img src="/src/assets/img/humanity.png" class="card-img mb-4" alt="We did it">
 
     <p class="mb-0 text-justify">Autrement dit, si tu penses ne jamais avoir été victime de / créer de drama, alors tu es un(e) menteur(euse).<br>Et si tu persistes à dire que non, alors arrête. Le déni ça fait plus de mal que de bien.</p>
 </div>
