@@ -39,4 +39,4 @@ main { min-height: 100%; }
 .index-events > .card:nth-child(3) { grid-area: c; }
 .index-events > .more { grid-area: d; }
 
-/* .index-events > .more > svg { color: red; } */
+.index-about > p { text-align: justify; }

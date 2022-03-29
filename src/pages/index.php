@@ -8,26 +8,26 @@
 
 <div class="index-events d-grid gap-3 p-3 border-bottom bg-dark accordion" id="latestsEvents">
     <?php for ($i = 0; $i < 3; $i++): ?>
-    <div class="card text-white bg-dark overflow-hidden">
+    <div class="card text-white bg-dark shadow">
         <div class="card-header">Événement du <?= $all[$i]['date']; ?></div>
 
-        <div class="accordion-item bg-dark">
-            <h5 id="HeadShowEvent<?= $i; ?>" class="card-title accordion-header bg-secondary">
-                <button class="bg-secondary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#showEvent<?= $i; ?>" aria-expanded="false" aria-controls="showEvent<?= $i; ?>">
+        <div class="accordion-item bg-dark overflow-hidden">
+            <h5 id="HeadShowEvent<?= $i; ?>" class="card-title accordion-header">
+                <button class="bg-dark text-white accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#showEvent<?= $i; ?>" aria-expanded="false" aria-controls="showEvent<?= $i; ?>">
                 <?= $all[$i]['name']; ?>
                 </button>
             </h5>
             
-            <div id="showEvent<?= $i; ?>" class="card-text accordion-collapse collapse" aria-labelledby="HeadShowEvent<?= $i; ?>">
+            <div id="showEvent<?= $i; ?>" class="card-text bg-light text-black accordion-collapse collapse" aria-labelledby="HeadShowEvent<?= $i; ?>">
                 <div class="accordion-body"><?= $all[$i]['infos']; ?></div>
             </div>
         </div>
     </div>
     <?php endfor; ?>
 
-    <div class="more d-flex flex-column justify-content-center">
+    <div class="more d-flex flex-column justify-content-center align-items-center">
         <a href="/events">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar4-event text-primary" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar4-event text-info" viewBox="0 0 16 16">
         <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
         <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
         </svg>
@@ -35,7 +35,39 @@
     </div>
 </div>
 
-<div class="bg-light">
+<div class="index-about bg-light p-5">
+    <h4 class="text-uppercase text-center py-3 mb-3">Le drama est-ce bien ?</h4>
+    <p class="mb-4">Notre slogan vous le dit, « Le monde n'est pas assez triste » ! Alors oui c'est bien.</p>
+    <p class="mb-4">Je sais ce que vous allez nous dire, si ça rend davantage triste c'est que ce n'est pas bien, car <span class="fw-bold">tristesse = peine et peine = négatif et négatif = péjoratif et péjoratif = mal</span>. Et c'est là que vous avez tout faux, car la tristesse est parfois une étape par laquelle <span class="fw-bold">nous devons passer pour pouvoir devenir plus fort.</span></p>
+    <p class="mb-4">En accablant le monde d'une overdose de drama, cela créera une dépression mondiale et générale. Pour la première fois dans des statistiques de recherches psychologiques le pourcentage sera unanime (100% des cas) et l'Homme réalisera qu'ils sont tous les mêmes. C'est ainsi que nous pourrons changer la balance et éveiller les esprits endormi pour entrer dans un nouvel ère qui sera bien plus positive que tout le mal occasionné.</p>
+    
+    <a href="/us" class="text-decoration-none">
+        <p class="d-flex align-items-center fw-bold text-uppercase text-info mb-0 text-center">En savoir plus
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+        </p>
+    </a>
+</div>
+
+<div class="index-donation bg-light p-5">
+    <h4 class="text-uppercase text-center py-3 mb-3">Faites un don</h4>
+    <p class="text-center mb-4">En faisant un don, vous nous aiderez à nourrir les cerveaux sans gènes, ceux qui n'ont pas froid au yeux et qui oseront faire grimper en flèche la bourse dramatique.</p>
+    <div class="d-flex gap-3 justify-content-center align-items-center">
+        <a href="/donation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-square text-info" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </a>
+        <a href="#" class="text-decoration-none">
+            <p class="d-flex align-items-center fw-bold text-uppercase text-danger mb-0">Faire un don
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+            </p>
+        </a>
+    </div>
 </div>
 
 <?php $body = ob_get_clean(); ?>
