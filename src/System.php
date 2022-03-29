@@ -4,14 +4,14 @@
 
     public function __construct ()
     {
-        if ($_SERVER['REQUEST_URI'] !== "/") $this->page = $_SERVER['REQUEST_URI'];
+        if ($_SERVER['REQUEST_URI'] !== '/') $this->page = $_SERVER['REQUEST_URI'];
 
-        if (is_null($this->page)) $this->page = "/index";
+        if (is_null($this->page)) $this->page = '/index';
 
         if (!is_null($this->page)) {
             $this->page = explode('/', $this->page);
             $extract = array_shift($this->page);
-            $load = "load" .ucfirst($this->page[0]);
+            $load = 'load' .ucfirst($this->page[0]);
         }
 
         return $this->$load();
@@ -57,8 +57,8 @@
     private function loadEvents ()
     {
         $title = static::setTitle('nos actions');
-        $incomming = static::getEventsIcomming();
 
+        $incomming = static::getEventsIcomming();
         $manifestations = static::getEvents('manifestations');
         $events = static::getEvents('events');
         $meetings = static::getEvents('meetings');
@@ -79,14 +79,14 @@
 
     private function loadUs ()
     {
-        $title = static::setTitle("A propos");
+        $title = static::setTitle('A propos');
 
         return $this->render('about', compact('title'));
     }
 
     private function loadDonation ()
     {
-        $title = static::setTitle("Faire un don");
+        $title = static::setTitle('faire un don');
 
         return $this->render('donation', compact('title'));
     }
