@@ -58,19 +58,11 @@
     {
         $title = static::setTitle('nos actions');
         $incomming = static::getEventsIcomming();
+
+        $manifestations = static::getEvents('manifestations');
+        $events = static::getEvents('events');
+        $meetings = static::getEvents('meetings');
         
-        $getManifestations = static::getDatas('events')['manifestations'];
-        $getEvents = static::getDatas('events')['events'];
-        $getMeetings = static::getDatas('events')['meetings'];
-
-        usort($getManifestations, array('System', 'orderByDate'));
-        usort($getEvents, array('System', 'orderByDate'));
-        usort($getMeetings, array('System', 'orderByDate'));
-
-        $manifestations = array_reverse($getManifestations);
-        $events = array_reverse($getEvents);
-        $meetings = array_reverse($getMeetings);
-
         return $this->render('events', compact('title', 'incomming', 'manifestations', 'events', 'meetings'));
     }
 
@@ -134,26 +126,62 @@
     {
         $loadEvents = static::getDatas('events');
 
-        // Seperated datas
+        // All datas
         $manif = $loadEvents['manifestations'];
         $ev = $loadEvents['events'];
         $meet = $loadEvents['meetings'];
 
         $all = [];
-        // all events reunited
-        foreach ($manif as $value) {
-            $all[] = $value;
+        // All events reunited
+        foreach ($manif as $data) {
+            $all[] = $data;
         }
-        foreach ($ev as $value) {
-            $all[] = $value;
+        foreach ($ev as $data) {
+            $all[] = $data;
         }
-        foreach ($meet as $value) {
-            $all[] = $value;
+        foreach ($meet as $data) {
+            $all[] = $data;
         }
 
         usort($all, array('System', 'orderByDate'));
 
-        return array_reverse($all);
+        $year = [];
+        // From the neareast
+        foreach ($all as $data) {
+            $date = $data['date'];
+            $actualY = explode('/', $date);
+            $tostamp = strtotime($date);
+
+            if ($actualY[2] !== 2022 && $tostamp >= time()) {
+                $data['date'] = static::convertDate($date);
+                $year[] = $data;
+            }
+        }
+
+        return $year;
+    }
+
+    private static function getEvents ($name)
+    {
+        $getDatas = static::getDatas('events')[$name];
+
+        usort($getDatas, array('System', 'orderByDate'));
+
+        $datas = [];
+        
+        foreach ($getDatas as $data) {
+            $data['date'] = static::convertDate($data['date']);
+            if (isset($data['end']) && !is_null($data['end'])) $data['end'] = static::convertDate($data['end']);
+            $datas[] = $data;
+        }
+
+        return array_reverse($datas);
+    }
+
+    private static function convertDate ($date)
+    {
+        $date = strtotime($date);
+        return date('d/m/Y', $date);
     }
     
 }
