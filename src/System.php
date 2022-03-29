@@ -42,6 +42,10 @@
         require_once 'pages/template.php';
     }
 
+    //
+    //
+    // Pages
+
     private function loadIndex ()
     {
         $title = static::setTitle('accueil');
@@ -86,14 +90,18 @@
         return $this->render('team', compact('title'));
     }
 
-    private function orderByDate ($a, $b)
+    private function loadUs ()
     {
-        $date1 = strtotime($a['date']);
-        $date2 = strtotime($b['date']);
+        $title = static::setTitle("A propos");
 
-        if ($date1 < 0) return 0;
+        return $this->render('about', compact('title'));
+    }
 
-        return $date1 - $date2;
+    private function loadDonation ()
+    {
+        $title = static::setTitle("Faire un don");
+
+        return $this->render('donation', compact('title'));
     }
 
     //
@@ -115,6 +123,16 @@
         $json = stripslashes($json);
         
         return json_decode($json, true);
+    }
+
+    private static function orderByDate ($a, $b)
+    {
+        $date1 = strtotime($a['date']);
+        $date2 = strtotime($b['date']);
+
+        if ($date1 < 0) return 0;
+
+        return $date1 - $date2;
     }
     
 }

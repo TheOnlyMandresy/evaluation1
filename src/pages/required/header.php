@@ -3,7 +3,7 @@
     
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="/" class="navbar-brand d-flex align-items-center">
                 <div class="logo"></div>
                 <strong><?= $website['title']; ?></strong>
             </a>
