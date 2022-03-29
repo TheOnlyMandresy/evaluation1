@@ -5,7 +5,8 @@
     <span class="d-block">© Tout droits résevés - 2022</span>
 </p>
 
-<a href="<?= $website['authorLink']; ?>" target="_blank" class="text-black">
-    <p class="text-end mb-0">- <?= $website['author']; ?></p>
-</a>
+<p class="text-end mb-0">
+    <a href="<?= $website['authorLink']; ?>" target="_blank" class="text-black">- <?= $website['author']; ?></a>
+</p>
+
 </footer>

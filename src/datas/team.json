@@ -2,6 +2,7 @@
     "team": [
         {
             "role": "Chercheuse en drama queen",
+            "profil": "/src/assets/img/team/01.jpg",
             "firstName": "Patricia A.",
             "lastName": "Boyd",
             "age": 39,
@@ -13,6 +14,7 @@
         },
         {
             "role": "Chercheur en drama queen",
+            "profil": "/src/assets/img/team/09.jpg",
             "firstName": "Sabih Fadi",
             "lastName": "Handal",
             "age": 45,
@@ -24,6 +26,7 @@
         },
         {
             "role": "Chercheur en drama queen",
+            "profil": "/src/assets/img/team/10.jpg",
             "firstName": "Palmiro",
             "lastName": "Giordano",
             "age": 61,
@@ -35,6 +38,7 @@
         },
         {
             "role": "Chercheuse en drama queen",
+            "profil": "/src/assets/img/team/02.jpg",
             "firstName": "Flordelis",
             "lastName": "Trottier",
             "age": 56,
@@ -46,6 +50,7 @@
         },
         {
             "role": "Superviseur du projet",
+            "profil": "/src/assets/img/team/11.avif",
             "firstName": "Josh",
             "lastName": "Morley",
             "age": 23,
@@ -57,6 +62,7 @@
         },
         {
             "role": "Superviseur du projet",
+            "profil": "/src/assets/img/team/12.avif",
             "firstName": "Katsumi",
             "lastName": "Komaï",
             "age": 58,
@@ -68,6 +74,7 @@
         },
         {
             "role": "Chargé événementiel",
+            "profil": "/src/assets/img/team/13.avif",
             "firstName": "Jon",
             "lastName": "Boots",
             "age": 20,
@@ -79,6 +86,7 @@
         },
         {
             "role": "Chargé événementiel",
+            "profil": "/src/assets/img/team/14.avif",
             "firstName": "Ian",
             "lastName": "Abramowitz",
             "age": 55,
@@ -90,6 +98,7 @@
         },
         {
             "role": "Chargée événementiel",
+            "profil": "/src/assets/img/team/03.jpg",
             "firstName": "Chum",
             "lastName": "Khamsuk",
             "age": 65,
@@ -101,6 +110,7 @@
         },
         {
             "role": "Chargé événementiel",
+            "profil": "/src/assets/img/team/15.avif",
             "firstName": "Vladimiro",
             "lastName": "Zito",
             "age": 52,
@@ -112,6 +122,7 @@
         },
         {
             "role": "Chargée événementiel",
+            "profil": "/src/assets/img/team/04.jpg",
             "firstName": "Eliane Rosario",
             "lastName": "Lozada",
             "age": 59,
@@ -124,63 +135,73 @@
     ],
     "queens": [
         {
+            "profil": "/src/assets/img/team/16.avif",
             "firstName": "Michael M.",
             "lastName": "Roth",
-            "age": 82,
+            "age": 31,
             "quote": "La vie est trop dure, c'est ce que vous pensez ? N'est-ce pas ? Mais essayer de vous dire que la vie est facile et elle le sera !"
         },
         {
+            "profil": "/src/assets/img/team/05.jpg",
             "firstName": "Jessica R.",
             "lastName": "Condon",
-            "age": 85,
+            "age": 28,
             "quote": "Dans la vie, tu es le seul à créer le moment magique. Tu ne dois pas attendre qu'il arrive. Deviens le magicien de ton existence."
         },
         {
+            "profil": "/src/assets/img/team/08.jpg",
             "firstName": "Gabrielle Ferreira",
             "lastName": "Goncalves",
-            "age": 66,
+            "age": 14,
             "quote": "Quelque soit le chemin,la vie empreinte ses pas"
         },
         {
+            "profil": "/src/assets/img/team/06.jpg",
             "firstName": "Laurence",
             "lastName": "Durepos",
-            "age": 79,
+            "age": 17,
             "quote": "Même si dans la vie on ne fait pas toujours ce que l’on veut, on est quand même responsable de ce que l’on devient."
         },
         {
+            "profil": "/src/assets/img/team/17.avif",
             "firstName": "Guillaume",
             "lastName": "Paquette",
             "age": 33,
             "quote": "Profite de la vie et du moment présent car si chaque jour que tu vois  est un jour de plus, c'est aussi un jour de moins"
         },
         {
+            "profil": "/src/assets/img/team/18.jpg",
             "firstName": "Arnaude",
             "lastName": "Caouette",
             "age": 57,
             "quote": "La vie est un jeu, il est bien plus facile d'y jouer quant on en connait les règles."
         },
         {
+            "profil": "/src/assets/img/team/07.jpg",
             "firstName": "Danielle",
             "lastName": "Phillips",
-            "age": 38,
+            "age": 21,
             "quote": "Nous sommes artistes de nos vies sur la plus belle des scènes la Planète..."
         },
         {
+            "profil": "/src/assets/img/team/19.jpg",
             "firstName": "Gianluca Serrano",
             "lastName": "Rico",
-            "age": 21,
+            "age": 25,
             "quote": "La vie est faite de beaux moments comme de terribles, mais la vie c'est comme un piano, il faut jouer sur les touches blanches comme sur les touches noires pour former une belle harmonie."
         },
         {
+            "profil": "/src/assets/img/team/20.jpg",
             "firstName": "Bacco",
             "lastName": "Longo",
-            "age": 23,
+            "age": 20,
             "quote": "Une vie sans contrariété est une vie sans plaisir"
         },
         {
+            "profil": "/src/assets/img/team/21.jpg",
             "firstName": "Nikita",
             "lastName": "Sokolov",
-            "age": 25,
+            "age": 35,
             "quote": "Dans la vraie vie, les plus faibles ne gagnent jamais."
         }
     ]

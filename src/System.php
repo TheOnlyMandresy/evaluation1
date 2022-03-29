@@ -49,45 +49,40 @@
     private function loadIndex ()
     {
         $title = static::setTitle('accueil');
+        $incomming = static::getEventsIcomming();
 
-        $loadEvents = static::getDatas('events');
-
-        // Seperated datas
-        $manif = $loadEvents['manifestation'];
-        $ev = $loadEvents['events'];
-        $meet = $loadEvents['meetings'];
-
-        $all = [];
-        // all events reunited
-        foreach ($manif as $value) {
-            $all[] = $value;
-        }
-        foreach ($ev as $value) {
-            $all[] = $value;
-        }
-        foreach ($meet as $value) {
-            $all[] = $value;
-        }
-
-        usort($all, array('System', 'orderByDate'));
-        // Most recent on top
-        $all = array_reverse($all);
-
-        return $this->render('index', compact('title', 'all'));
+        return $this->render('index', compact('title', 'incomming'));
     }
 
     private function loadEvents ()
     {
-        $title = static::setTitle("nos actions");
+        $title = static::setTitle('nos actions');
+        $incomming = static::getEventsIcomming();
+        
+        $getManifestations = static::getDatas('events')['manifestations'];
+        $getEvents = static::getDatas('events')['events'];
+        $getMeetings = static::getDatas('events')['meetings'];
 
-        return $this->render('events', compact('title'));
+        usort($getManifestations, array('System', 'orderByDate'));
+        usort($getEvents, array('System', 'orderByDate'));
+        usort($getMeetings, array('System', 'orderByDate'));
+
+        $manifestations = array_reverse($getManifestations);
+        $events = array_reverse($getEvents);
+        $meetings = array_reverse($getMeetings);
+
+        return $this->render('events', compact('title', 'incomming', 'manifestations', 'events', 'meetings'));
     }
 
     private function loadTeam ()
     {
-        $title = static::setTitle("contributeurs");
+        $title = static::setTitle('contributeurs');
+        $all = static::getDatas('team');
 
-        return $this->render('team', compact('title'));
+        $team = $all['team'];
+        $queens = $all['queens'];
+
+        return $this->render('team', compact('title', 'team', 'queens'));
     }
 
     private function loadUs ()
@@ -133,6 +128,32 @@
         if ($date1 < 0) return 0;
 
         return $date1 - $date2;
+    }
+
+    private static function getEventsIcomming ()
+    {
+        $loadEvents = static::getDatas('events');
+
+        // Seperated datas
+        $manif = $loadEvents['manifestations'];
+        $ev = $loadEvents['events'];
+        $meet = $loadEvents['meetings'];
+
+        $all = [];
+        // all events reunited
+        foreach ($manif as $value) {
+            $all[] = $value;
+        }
+        foreach ($ev as $value) {
+            $all[] = $value;
+        }
+        foreach ($meet as $value) {
+            $all[] = $value;
+        }
+
+        usort($all, array('System', 'orderByDate'));
+
+        return array_reverse($all);
     }
     
 }

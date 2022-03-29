@@ -8,11 +8,15 @@
     <h4 class="text-uppercase text-center py-3 mb-3">C'est pour la bonne cause</h4>
     <p class="mb-4 text-justify">En faisant un don, vous nous aiderez à nourrir les cerveaux sans gènes, ceux qui n'ont pas froid au yeux et qui oseront faire grimper en flèche la bourse dramatique.</p>
 
-    <img src="/src/assets/img/business.png" class="card-img mb-4" alt="Business is business">
+    <p class="text-center mb-4">
+        <img src="/src/assets/img/business.png" alt="Business is business">
+    </p>
 
     <p class="mb-4 text-justify">Vous nous aiderez aussi à financer d'autres projets. Des projets qui ne sont pas de nous mais de personnes tout aussi motivées à l'idée d'apporter une aide au développement de ce monde dans lequel nous vivons tous.</p>
     
-    <img src="/src/assets/img/kids.png" class="card-img mb-4" alt="Kids's brain">
+    <p class="text-center mb-4">
+        <img src="/src/assets/img/kids.png" alt="Kids's brain">
+    </p>
 
     <p class="mb-0 text-justify">Vous nous aiderez aussi, a financé les projets scolaires des enfants qui n'ont pas la possibilité d'expérimenter assez de divertissement, comme leur faire visiter des lieu publics (zoo, musées, aquarium etc.) et leur permettre d'avoir une large palette de savoir afin d'augmenter drastiquement le taux de drama.</p>
 
@@ -27,7 +31,7 @@
     </div>
 </div>
 
-<div class="donation-poor bg-secondary p-5">
+<div class="donation-poor bg-warning p-5">
     <h4 class="text-uppercase text-center pb-3 mb-3">T'es pauvre ?</h4>
 
     <p class="mb-0 text-justify">Si vous ne possédez pas le moindre centime, vous pouvez participer vous-même en créant davantage de drama dans votre entourage, <span class="fw-bold">n'ayez pas peur de leur faire mal ou de leur causer du tort. Si vous hésitez, la fin de l'espèce humaine sera sur votre dos.</span></p>

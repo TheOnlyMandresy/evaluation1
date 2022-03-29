@@ -6,34 +6,7 @@
     <p>- <?= $website['title']; ?></p>
 </div>
 
-<div class="index-events d-grid gap-3 p-3 border-bottom bg-dark accordion" id="latestsEvents">
-    <?php for ($i = 0; $i < 3; $i++): ?>
-    <div class="card text-white bg-dark shadow">
-        <div class="card-header">Événement du <?= $all[$i]['date']; ?></div>
-
-        <div class="accordion-item bg-dark overflow-hidden">
-            <h5 id="HeadShowEvent<?= $i; ?>" class="card-title accordion-header">
-                <button class="bg-dark text-white accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#showEvent<?= $i; ?>" aria-expanded="false" aria-controls="showEvent<?= $i; ?>">
-                <?= $all[$i]['name']; ?>
-                </button>
-            </h5>
-            
-            <div id="showEvent<?= $i; ?>" class="card-text bg-light text-black accordion-collapse collapse" aria-labelledby="HeadShowEvent<?= $i; ?>">
-                <div class="accordion-body"><?= $all[$i]['infos']; ?></div>
-            </div>
-        </div>
-    </div>
-    <?php endfor; ?>
-
-    <div class="more d-flex flex-column justify-content-center align-items-center">
-        <a href="/events">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar4-event text-info" viewBox="0 0 16 16">
-        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
-        <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-        </svg>
-        </a>
-    </div>
-</div>
+<?php require_once 'events/incomming.php'; ?>
 
 <div class="index-about bg-light p-5">
     <h4 class="text-uppercase text-center pb-3 mb-3">Le drama est-ce bien ?</h4>
@@ -41,6 +14,7 @@
     <p class="mb-4 text-justify">Je sais ce que vous allez nous dire, si ça rend davantage triste c'est que ce n'est pas bien, car <span class="fw-bold">tristesse = peine et peine = négatif et négatif = péjoratif et péjoratif = mal</span>. Et c'est là que vous avez tout faux, car la tristesse est parfois une étape par laquelle <span class="fw-bold">nous devons passer pour pouvoir devenir plus fort.</span></p>
     <p class="mb-4 text-justify">En accablant le monde d'une overdose de drama, cela créera une dépression mondiale et générale. Pour la première fois dans des statistiques de recherches psychologiques le pourcentage sera unanime (100% des cas) et l'Homme réalisera qu'ils sont tous les mêmes. C'est ainsi que nous pourrons changer la balance et éveiller les esprits endormi pour entrer dans un nouvel ère qui sera bien plus positive que tout le mal occasionné.</p>
     
+    <div>
     <a href="/us" class="text-decoration-none">
         <p class="d-flex align-items-center fw-bold text-uppercase text-info mb-0 text-center">En savoir plus
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -48,6 +22,7 @@
         </svg>
         </p>
     </a>
+    </div>
 </div>
 
 <div class="index-donation bg-light p-5">
