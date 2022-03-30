@@ -10,7 +10,7 @@
     
     <div class="toResponsive gap-3">
         <div class="card mb-4">
-            <img src="/src/assets/img/hieroglyphe-chat.jpg" class="card-img-top" alt="hiéroglyphe-chat">
+            <img src="/src/assets/img/hieroglyphe.jpg" class="card-img-top" alt="hiéroglyphe-chat">
             <div class="card-body">
                 <h5 class="card-title">La damnation de Gizqqarah</h5>
                 <p class="card-text">« Gizqqarah a été condamné à construire toutes les statues de chats pour avoir trouvé absurde d'écouter les miaulements du haut gradé le Seigneur Petit Miaou »</p>

@@ -5,6 +5,7 @@ main { min-height: 100%; }
 .h-100 { height: 100vh!important; }
 .h-50 { height: 50vh!important; }
 .text-justify { text-align: justify; }
+.p-5 { padding: 1rem!important; }
 
 [class*="logo"] {
     background-image: url(../img/logo.png);
@@ -34,7 +35,7 @@ main { min-height: 100%; }
 
 .toSlide { width: fit-content; }
 .toSlide > .card {
-    width: 16rem;
+    width: 17rem;
     background-color: rgba(0,0,0,.03)!important;
 }
 
@@ -102,7 +103,7 @@ main { min-height: 100%; }
 
 
 /* Responsive */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1081px) {
 
 main > div:not(.index-landing, .events-incomming) > *,
 footer > * {
@@ -110,8 +111,12 @@ footer > * {
     margin: auto;
 }
 
-.toSlide { flex-wrap: wrap; }
-.toSlide > .card { width: 18rem!important; }
+.p-5 { padding: 3rem!important; }
+
+.toSlide {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .about-what .toResponsive { 
     display: grid;
