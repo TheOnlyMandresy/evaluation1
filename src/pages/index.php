@@ -15,7 +15,7 @@
     <p class="mb-4 text-justify">En accablant le monde d'une overdose de drama, cela créera une dépression mondiale et générale. Pour la première fois dans des statistiques de recherches psychologiques le pourcentage sera unanime (100% des cas) et l'Homme réalisera qu'ils sont tous les mêmes. C'est ainsi que nous pourrons changer la balance et éveiller les esprits endormi pour entrer dans un nouvel ère qui sera bien plus positive que tout le mal occasionné.</p>
     
     <div>
-    <a href="/us" class="text-decoration-none">
+    <a href="/about" class="text-decoration-none">
         <p class="d-flex align-items-center fw-bold text-uppercase text-info mb-0 text-center">En savoir plus
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>

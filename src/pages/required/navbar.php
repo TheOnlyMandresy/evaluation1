@@ -6,7 +6,7 @@
                 
                 <ul class="list-unstyled">
                     <li><a href="/events" class="nav-link px-2 text-white">Nos actions</a></li>
-                    <li><a href="/us" class="nav-link px-2 text-white">Notre histoire</a></li>
+                    <li><a href="/about" class="nav-link px-2 text-white">Notre histoire</a></li>
                     <li><a href="/team" class="nav-link px-2 text-white">Les contributeurs</a></li>
                     <li><a href="/donation" class="nav-link px-2 link-danger">Faire un don</a></li>
                 </ul>

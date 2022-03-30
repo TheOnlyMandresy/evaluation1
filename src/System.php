@@ -77,7 +77,7 @@
         return $this->render('team', compact('title', 'team', 'queens'));
     }
 
-    private function loadUs ()
+    private function loadAbout ()
     {
         $title = static::setTitle('A propos');
 
