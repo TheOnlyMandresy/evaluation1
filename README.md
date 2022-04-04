@@ -1,10 +1,13 @@
-# DramaForver - Le projet
+<p align="center">
+  <img width="200" src="https://github.com/TheOnlyMandresy/evaluation1/blob/master/src/assets/img/logo.png" alt="Material Bread logo">
+  <h1 align="center">DramaForver - Le projet</h1>
+</p>
 
 [DramaForever](https://dramaforever.rf.gd/) est **une association fictive**! Elle est toute fois reliée à un lien pour faire un don à une association qui elle, est réelle.
 
 Le but de ce projet était pour mon cursus d'apprentissage auprès de l'enseigne de formation [Studi](https://www.studi.com/fr)
 
----
+
 
 ## A propos
 
@@ -24,3 +27,7 @@ Ce projet m'a permis d'apprendre à utilisé Bootstrap et faire un site responsi
 ### Le repository
 
 Libre à vous de faire ce que vous voulez de ce projet, c'est une bonne base pour apprendre à programmer en OO avec PHP, selon moi.
+
+### Droits d'auteur
+
+Mis à part le logo que j'ai fait à l'aide du logiciel [photopea](https://www.photopea.com/), les autres images sont des images gratuites trouver sur le net.
