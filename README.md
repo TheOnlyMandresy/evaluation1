@@ -1,6 +1,6 @@
 <p align="center">
   <img width="200" src="https://github.com/TheOnlyMandresy/evaluation1/blob/master/src/assets/img/logo.png" alt="Material Bread logo">
-  <h1 align="center">DramaForver - Le projet</h1>
+  <h1 align="center">DramaForever - Le projet</h1>
 </p>
 
 [DramaForever](https://dramaforever.rf.gd/) est **une association fictive**! Elle est toute fois reliée à un lien pour faire un don à une association qui elle, est réelle.
