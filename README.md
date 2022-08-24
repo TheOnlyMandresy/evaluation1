@@ -3,7 +3,7 @@
   <h1 align="center">DramaForever - Le projet</h1>
 </p>
 
-[DramaForever](https://dramaforever.rf.gd/) est **une association fictive**! Elle est toute fois reliée à un lien pour faire un don à une association qui elle, est réelle.
+[DramaForever](https://dramaforever.rvy.fr/) est **une association fictive**! Elle est toute fois reliée à un lien pour faire un don à une association qui elle, est réelle.
 
 Le but de ce projet était pour mon cursus d'apprentissage auprès de l'enseigne de formation [Studi](https://www.studi.com/fr)
 
@@ -14,8 +14,6 @@ Le but de ce projet était pour mon cursus d'apprentissage auprès de l'enseigne
 ### Le lien du site
 
 Il est important de savoir que le lien du site peut parfois déconner lors de la première entrée.
-
-Lorsqu'on entre sur le site [DramaForever](https://dramaforever.rf.gd/) un `GET` apparaît dans l'URL (`?i=`), c'est une sécurité de l'hébergeur pour vérifier que nous ne sommes pas un bot
 
 **Pour palier ce problème** deux méthodes s'offrent à vous:
 soit vous fermez la fenêtre et cliquez de nouveau sur le lien. Soit vous retirer le paramètre `GET` qui s'est immicé, avant d'acualisé la page
